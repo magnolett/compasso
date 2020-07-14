@@ -40,7 +40,7 @@
 				</executions>
 				<configuration>
 					<dockerHost>tcp://localhost:2376</dockerHost>
-					<repository>marcos/spring-docker-spotify</repository>
+					<repository>magnoletto/compasso</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
 						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
